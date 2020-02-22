@@ -15,7 +15,7 @@ public class Game extends JPanel implements ActionListener {
         this.setOpaque(false);
         p1=new Player(100,900);
         setFocusable(true);
-        timer=new Timer(14,this);
+        timer=new Timer(35,this);
         timer.start();
         addKeyListener(new KeyInputs(p1));
     }
